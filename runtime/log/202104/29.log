@@ -1,0 +1,4405 @@
+---------------------------------------------------------------
+[ 2021-04-29T03:35:50+08:00 ] 139.224.11.233 GET wx.zhinengyingjian.work/
+[运行时间：0.004980s] [吞吐率：200.80req/s] [内存消耗：222.20kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000120s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T03:35:50+08:00 ] 139.224.11.233 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004447s] [吞吐率：224.87req/s] [内存消耗：226.02kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T03:35:50+08:00 ] 139.224.11.233 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.008452s] [吞吐率：118.31req/s] [内存消耗：435.91kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000106s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000161s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:43:30+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.005245s] [吞吐率：190.66req/s] [内存消耗：227.18kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469; td_cookie=271192533',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:43:30+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.008131s] [吞吐率：122.99req/s] [内存消耗：404.58kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000103s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000186s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:43:31+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007607s] [吞吐率：131.45req/s] [内存消耗：404.98kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf',
+  'referer' => 'http://wx.zhinengyingjian.work/admin/login.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000104s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000149s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:43:32+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/admin/login.html?spm=
+[运行时间：0.025519s] [吞吐率：39.19req/s] [内存消耗：364.86kb] [文件加载：57]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660612',
+  'referer' => 'http://wx.zhinengyingjian.work/admin/login.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://wx.zhinengyingjian.work',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '49',
+)
+[ info ] [ PARAM ] array (
+  'spm' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000103s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:43:33+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.013499s] [吞吐率：74.08req/s] [内存消耗：437.10kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660612',
+  'referer' => 'http://wx.zhinengyingjian.work/admin/login.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000360s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000198s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:43:33+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/index.html?spm=m-61-85
+[运行时间：0.009731s] [吞吐率：102.76req/s] [内存消耗：405.72kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-85',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000297s ]
+[ info ] [ RUN ] app\wechat\controller\News->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/news.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001157s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:43:39+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?spm=m-61-64
+[运行时间：0.009123s] [吞吐率：109.61req/s] [内存消耗：426.02kb] [文件加载：56]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000339s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.pay.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:44:10+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[运行时间：0.173354s] [吞吐率：5.77req/s] [内存消耗：372.93kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'payqrc',
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000334s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:44:11+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[运行时间：0.163476s] [吞吐率：6.12req/s] [内存消耗：371.95kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'payqrc',
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000296s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:44:13+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004932s] [吞吐率：202.76req/s] [内存消耗：226.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:44:14+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.008117s] [吞吐率：123.20req/s] [内存消耗：403.85kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000110s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000176s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:44:18+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[运行时间：0.148251s] [吞吐率：6.75req/s] [内存消耗：372.14kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'payqrc',
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000351s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:52:39+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/index.html?spm=m-61-67
+[运行时间：0.011807s] [吞吐率：84.70req/s] [内存消耗：427.38kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'fans',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-67',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000345s ]
+[ info ] [ RUN ] app\wechat\controller\Fans->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Fans.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/fans.index.html [ array (
+  0 => 'classuri',
+  1 => 'tags',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001005s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:52:43+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?spm=m-61-64
+[运行时间：0.008676s] [吞吐率：115.26req/s] [内存消耗：392.01kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000349s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.pay.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000163s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:54:54+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/index.php/admin/plugs/upfile/mode/one.html?mode=one&uptype=local&type=pem&field=wechat_cert_key_md5
+[运行时间：0.010476s] [吞吐率：95.46req/s] [内存消耗：451.25kb] [文件加载：56]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'plugs',
+    2 => 'upfile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=332019333; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619660613; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/index.php/admin/plugs/upfile/mode/one.html?mode=one&uptype=local&type=pem&field=wechat_cert_key_md5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'one',
+  'uptype' => 'local',
+  'type' => 'pem',
+  'field' => 'wechat_cert_key_md5',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000114s ]
+[ info ] [ RUN ] app\admin\controller\Plugs->upfile[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Plugs.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/plugs.upfile.html [ array (
+  0 => 'classuri',
+  1 => 'mimes',
+  2 => 'field',
+  3 => 'mode',
+  4 => 'types',
+  5 => 'uptype',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000201s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:02+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/index.php/admin/plugs/upstate.html
+[运行时间：0.007695s] [吞吐率：129.96req/s] [内存消耗：385.09kb] [文件加载：53]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'plugs',
+    2 => 'upstate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661296; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/index.php/admin/plugs/upfile/mode/one.html?mode=one&uptype=local&type=pem&field=wechat_cert_key_md5',
+  'connection' => 'keep-alive',
+  'origin' => 'http://wx.zhinengyingjian.work',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '89',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'WU_FILE_0',
+  'md5' => 'e993c6d2858e0d49aae68180a08dd629',
+  'uptype' => 'local',
+  'filename' => 'apiclient_key.pem',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000127s ]
+[ info ] [ RUN ] app\admin\controller\Plugs->upstate[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Plugs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:02+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/index.php/admin/plugs/upload.html
+[运行时间：0.005982s] [吞吐率：167.17req/s] [内存消耗：240.16kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'plugs',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661296; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/index.php/admin/plugs/upfile/mode/one.html?mode=one&uptype=local&type=pem&field=wechat_cert_key_md5',
+  'connection' => 'keep-alive',
+  'origin' => 'http://wx.zhinengyingjian.work',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+  'content-type' => 'multipart/form-data; boundary=---------------------------270271110528904496453324054139',
+  'content-length' => '3386',
+)
+[ info ] [ PARAM ] array (
+  'OSSAccessKeyId' => '',
+  'success_action_status' => '200',
+  'id' => 'WU_FILE_0',
+  'name' => 'apiclient_key.pem',
+  'type' => 'application/octet-stream',
+  'lastModifiedDate' => '2021/4/29 上午9:55:02',
+  'size' => '1704',
+  'allowed_types' => 'pem',
+  'token' => '0e84d2a361b666d025ba439c6884327b',
+  'md5' => 'e993c6d2858e0d49aae68180a08dd629',
+  'key' => 'e993c6d2858e0d49/aae68180a08dd629.pem',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000102s ]
+[ info ] [ RUN ] app\admin\controller\Plugs->upload[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Plugs.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:21+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/index.php/admin/plugs/upfile/mode/one.html?mode=one&uptype=local&type=pem&field=wechat_cert_cert_md5
+[运行时间：0.008532s] [吞吐率：117.21req/s] [内存消耗：388.84kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'plugs',
+    2 => 'upfile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=332019333; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661296; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'one',
+  'uptype' => 'local',
+  'type' => 'pem',
+  'field' => 'wechat_cert_cert_md5',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000118s ]
+[ info ] [ RUN ] app\admin\controller\Plugs->upfile[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Plugs.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/plugs.upfile.html [ array (
+  0 => 'classuri',
+  1 => 'mimes',
+  2 => 'field',
+  3 => 'mode',
+  4 => 'types',
+  5 => 'uptype',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000191s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:32+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/index.php/admin/plugs/upstate.html
+[运行时间：0.007792s] [吞吐率：128.34req/s] [内存消耗：385.09kb] [文件加载：53]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'plugs',
+    2 => 'upstate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/index.php/admin/plugs/upfile/mode/one.html?mode=one&uptype=local&type=pem&field=wechat_cert_cert_md5',
+  'connection' => 'keep-alive',
+  'origin' => 'http://wx.zhinengyingjian.work',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '90',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'WU_FILE_0',
+  'md5' => '386b01f484a75006927a9e53fd19a001',
+  'uptype' => 'local',
+  'filename' => 'apiclient_cert.pem',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000118s ]
+[ info ] [ RUN ] app\admin\controller\Plugs->upstate[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Plugs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:32+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/index.php/admin/plugs/upload.html
+[运行时间：0.004939s] [吞吐率：202.48req/s] [内存消耗：239.37kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'plugs',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/index.php/admin/plugs/upfile/mode/one.html?mode=one&uptype=local&type=pem&field=wechat_cert_cert_md5',
+  'connection' => 'keep-alive',
+  'origin' => 'http://wx.zhinengyingjian.work',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+  'content-type' => 'multipart/form-data; boundary=---------------------------159772535417085575992785499382',
+  'content-length' => '3282',
+)
+[ info ] [ PARAM ] array (
+  'OSSAccessKeyId' => '',
+  'success_action_status' => '200',
+  'id' => 'WU_FILE_0',
+  'name' => 'apiclient_cert.pem',
+  'type' => 'application/octet-stream',
+  'lastModifiedDate' => '2021/4/29 上午9:55:32',
+  'size' => '1598',
+  'allowed_types' => 'pem',
+  'token' => 'f72709a7cb7704a23b92b3d9a580ec78',
+  'md5' => '386b01f484a75006927a9e53fd19a001',
+  'key' => '386b01f484a75006/927a9e53fd19a001.pem',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000102s ]
+[ info ] [ RUN ] app\admin\controller\Plugs->upload[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Plugs.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:38+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/config/pay.html?spm=m-61-64
+[运行时间：0.052451s] [吞吐率：19.07req/s] [内存消耗：358.66kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://wx.zhinengyingjian.work',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '182',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-64',
+  'wechat_mch_id' => '1259951301',
+  'wechat_partnerkey' => 'telpo111111111111111111111111111',
+  'wechat_cert_key_md5' => 'e993c6d2858e0d49aae68180a08dd629',
+  'wechat_cert_cert_md5' => '386b01f484a75006927a9e53fd19a001',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000369s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:40+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?spm=m-61-64
+[运行时间：0.007544s] [吞吐率：132.55req/s] [内存消耗：391.26kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000294s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.pay.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:54+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[运行时间：0.168899s] [吞吐率：5.92req/s] [内存消耗：372.13kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'payqrc',
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000343s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:58+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.005201s] [吞吐率：192.27req/s] [内存消耗：226.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:55:58+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007349s] [吞吐率：136.07req/s] [内存消耗：404.04kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000101s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:56:04+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[运行时间：0.136749s] [吞吐率：7.31req/s] [内存消耗：372.33kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'payqrc',
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000365s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:56:35+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[运行时间：0.008731s] [吞吐率：114.53req/s] [内存消耗：391.30kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-63',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000351s ]
+[ info ] [ RUN ] app\wechat\controller\Config->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000199s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:56:40+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?spm=m-61-64
+[运行时间：0.008451s] [吞吐率：118.33req/s] [内存消耗：391.26kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000348s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.pay.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:56:42+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[运行时间：0.007520s] [吞吐率：132.98req/s] [内存消耗：391.30kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-63',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000314s ]
+[ info ] [ RUN ] app\wechat\controller\Config->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000175s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T09:56:57+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?spm=m-61-64
+[运行时间：0.008247s] [吞吐率：121.26req/s] [内存消耗：391.26kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-64',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000345s ]
+[ info ] [ RUN ] app\wechat\controller\Config->pay[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.pay.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T10:08:32+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[运行时间：0.008421s] [吞吐率：118.75req/s] [内存消耗：391.30kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-63',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000354s ]
+[ info ] [ RUN ] app\wechat\controller\Config->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000168s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T10:49:11+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.012640s] [吞吐率：79.11req/s] [内存消耗：437.51kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619661322; menu-style=full; rows=20',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000330s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000181s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T10:49:12+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[运行时间：0.007684s] [吞吐率：130.14req/s] [内存消耗：391.30kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-63',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000312s ]
+[ info ] [ RUN ] app\wechat\controller\Config->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000167s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T10:49:13+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[运行时间：0.009527s] [吞吐率：104.97req/s] [内存消耗：401.41kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-69',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000287s ]
+[ info ] [ RUN ] app\wechat\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001040s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T10:49:15+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[运行时间：0.008232s] [吞吐率：121.48req/s] [内存消耗：391.30kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-63',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000344s ]
+[ info ] [ RUN ] app\wechat\controller\Config->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000180s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T10:49:17+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/index.html?spm=m-2-19
+[运行时间：0.009726s] [吞吐率：102.82req/s] [内存消耗：406.37kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000288s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001075s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T10:49:17+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/index.html?spm=m-61-85
+[运行时间：0.009774s] [吞吐率：102.31req/s] [内存消耗：406.12kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-85',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000289s ]
+[ info ] [ RUN ] app\wechat\controller\News->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/news.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001199s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T11:09:24+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=c0c427420e2e52eb71f8da7b4eb52640ae66b964&timestamp=1619665763&nonce=117377302&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[运行时间：0.010684s] [吞吐率：93.60req/s] [内存消耗：436.45kb] [文件加载：56]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'api',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'pragma' => 'no-cache',
+  'host' => 'wx.zhinengyingjian.work',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-type' => 'text/xml',
+  'content-length' => '277',
+)
+[ info ] [ PARAM ] array (
+  'signature' => 'c0c427420e2e52eb71f8da7b4eb52640ae66b964',
+  'timestamp' => '1619665763',
+  'nonce' => '117377302',
+  'openid' => 'oF6FN6a7MBi0f9VnXvRodVg1-iQg',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000122s ]
+[ info ] [ RUN ] app\wechat\controller\Api->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T11:42:13+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/index.html?spm=m-61-70
+[运行时间：0.011333s] [吞吐率：88.24req/s] [内存消耗：416.51kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'keys',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-70',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000344s ]
+[ info ] [ RUN ] app\wechat\controller\Keys->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Keys.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/keys.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001083s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T12:42:05+08:00 ] 111.7.96.146 HEAD wx.zhinengyingjian.work:80/
+[运行时间：0.005010s] [吞吐率：199.60req/s] [内存消耗：222.38kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive, close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Chrome/54.0 (Windows NT 10.0)',
+  'host' => 'wx.zhinengyingjian.work:80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000120s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T12:42:05+08:00 ] 111.7.96.146 HEAD wx.zhinengyingjian.work:80/admin.html
+[运行时间：0.004512s] [吞吐率：221.64req/s] [内存消耗：226.30kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://wx.zhinengyingjian.work:80',
+  'connection' => 'keep-alive, close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Chrome/54.0 (Windows NT 10.0)',
+  'host' => 'wx.zhinengyingjian.work:80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T14:01:31+08:00 ] 47.103.212.123 GET wx.zhinengyingjian.work/
+[运行时间：0.005026s] [吞吐率：198.97req/s] [内存消耗：222.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000119s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T14:01:31+08:00 ] 47.103.212.123 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004249s] [吞吐率：235.36req/s] [内存消耗：225.99kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T14:01:31+08:00 ] 47.103.212.123 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007513s] [吞吐率：133.10req/s] [内存消耗：403.24kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000109s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000171s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:47:48+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/
+[运行时间：0.004808s] [吞吐率：207.98req/s] [内存消耗：223.85kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000129s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:47:48+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.012033s] [吞吐率：83.10req/s] [内存消耗：437.16kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619664552; menu-style=full; rows=20',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000356s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000179s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:47:48+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/index.html?spm=m-61-85
+[运行时间：0.009266s] [吞吐率：107.92req/s] [内存消耗：406.12kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689669; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-85',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000294s ]
+[ info ] [ RUN ] app\wechat\controller\News->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/news.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001019s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:47:56+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/index.html?spm=m-2-19
+[运行时间：0.010418s] [吞吐率：95.99req/s] [内存消耗：405.24kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689669; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000355s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001085s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:47:59+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/node/index.html?spm=m-2-22
+[运行时间：0.028398s] [吞吐率：35.21req/s] [内存消耗：694.41kb] [文件加载：79]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'node',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689669; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-22',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000345s ]
+[ info ] [ RUN ] app\admin\controller\Node->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Node.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/node.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'nodes',
+  3 => 'alert',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001228s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:00+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/menu/index.html?spm=m-2-21
+[运行时间：0.010997s] [吞吐率：90.93req/s] [内存消耗：496.27kb] [文件加载：57]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689669; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000295s ]
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001116s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:02+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010787s] [吞吐率：92.70req/s] [内存消耗：449.27kb] [文件加载：61]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689669; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000336s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001078s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:02+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/log/index.html?spm=m-2-9
+[运行时间：0.012907s] [吞吐率：77.48req/s] [内存消耗：529.10kb] [文件加载：62]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=271192533; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689669; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-9',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000348s ]
+[ info ] [ RUN ] app\admin\controller\Log->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Log.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/log.index.html [ array (
+  0 => 'classuri',
+  1 => 'actions',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001117s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:17+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.012630s] [吞吐率：79.18req/s] [内存消耗：437.50kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689669; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000346s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000181s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:18+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/index.html?spm=m-61-85
+[运行时间：0.009189s] [吞吐率：108.82req/s] [内存消耗：406.12kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689698; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-85',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000297s ]
+[ info ] [ RUN ] app\wechat\controller\News->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/news.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001098s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:43+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.012327s] [吞吐率：81.12req/s] [内存消耗：437.50kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689698; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000355s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000193s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:44+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/index.html?spm=m-61-85
+[运行时间：0.009292s] [吞吐率：107.62req/s] [内存消耗：406.12kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689724; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-85',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000307s ]
+[ info ] [ RUN ] app\wechat\controller\News->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/news.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001086s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:48:49+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/index.html?spm=m-61-70
+[运行时间：0.010700s] [吞吐率：93.46req/s] [内存消耗：415.38kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'keys',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689724; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-70',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000346s ]
+[ info ] [ RUN ] app\wechat\controller\Keys->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Keys.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/keys.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001015s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:49:17+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[运行时间：0.008404s] [吞吐率：118.99req/s] [内存消耗：391.30kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689724; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-63',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000377s ]
+[ info ] [ RUN ] app\wechat\controller\Config->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Config.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/config.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000167s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:49:21+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[运行时间：0.009885s] [吞吐率：101.16req/s] [内存消耗：400.30kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689724; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-69',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000338s ]
+[ info ] [ RUN ] app\wechat\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001097s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:49:26+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/defaults.html?spm=m-61-81
+[运行时间：0.009468s] [吞吐率：105.62req/s] [内存消耗：399.63kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'keys',
+    2 => 'defaults',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=283918440; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689724; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-81',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000325s ]
+[ info ] [ RUN ] app\wechat\controller\Keys->defaults[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Keys.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/keys.form.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001047s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:49:26+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[运行时间：0.006481s] [吞吐率：154.30req/s] [内存消耗：383.10kb] [文件加载：51]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'review',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=360493999; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689724; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'text',
+  'content' => '说点什么吧',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000097s ]
+[ info ] [ RUN ] app\wechat\controller\Review->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Review.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/review.index.html [ array (
+  0 => 'classuri',
+  1 => 'type',
+  2 => 'content',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001835s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:49:28+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/subscribe.html?spm=m-61-71
+[运行时间：0.009022s] [吞吐率：110.84req/s] [内存消耗：399.63kb] [文件加载：54]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'keys',
+    2 => 'subscribe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=360493999; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689767; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-71',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000323s ]
+[ info ] [ RUN ] app\wechat\controller\Keys->subscribe[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Keys.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/keys.form.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001092s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:49:28+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[运行时间：0.006703s] [吞吐率：149.18req/s] [内存消耗：383.10kb] [文件加载：51]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'review',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=360493999; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689767; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'text',
+  'content' => '说点什么吧',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000103s ]
+[ info ] [ RUN ] app\wechat\controller\Review->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Review.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/review.index.html [ array (
+  0 => 'classuri',
+  1 => 'type',
+  2 => 'content',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001882s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:50:51+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/index.html?spm=m-61-67
+[运行时间：0.012445s] [吞吐率：80.35req/s] [内存消耗：427.37kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'fans',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=360493999; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689769; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-67',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000347s ]
+[ info ] [ RUN ] app\wechat\controller\Fans->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Fans.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/fans.index.html [ array (
+  0 => 'classuri',
+  1 => 'tags',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001149s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:51:26+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/index.html?spm=m-61-70
+[运行时间：0.010831s] [吞吐率：92.33req/s] [内存消耗：415.38kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'keys',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=360493999; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689769; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-70',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000356s ]
+[ info ] [ RUN ] app\wechat\controller\Keys->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Keys.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/keys.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001067s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:51:28+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E4%BD%9B%E5%B1%B1%0D%0A04%E6%9C%8828%E6%97%A5+%E5%91%A8%E4%B8%89+%E5%86%9C%E5%8E%86%E4%B8%89%E6%9C%88%E5%8D%81%E4%B8%83%0D%0A20+%7E+22%E2%84%83%0D%0A%E5%B0%8F%E9%9B%A8%E8%BD%AC%E9%98%B5%E9%9B%A8
+[运行时间：0.007109s] [吞吐率：140.66req/s] [内存消耗：383.85kb] [文件加载：51]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'review',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=360616544; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689769; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E4%BD%9B%E5%B1%B1%0D%0A04%E6%9C%8828%E6%97%A5+%E5%91%A8%E4%B8%89+%E5%86%9C%E5%8E%86%E4%B8%89%E6%9C%88%E5%8D%81%E4%B8%83%0D%0A20+%7E+22%E2%84%83%0D%0A%E5%B0%8F%E9%9B%A8%E8%BD%AC%E9%98%B5%E9%9B%A8',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'text',
+  'content' => '佛山
+04月28日 周三 农历三月十七
+20 ~ 22℃
+小雨转阵雨',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000106s ]
+[ info ] [ RUN ] app\wechat\controller\Review->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Review.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/review.index.html [ array (
+  0 => 'classuri',
+  1 => 'type',
+  2 => 'content',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002045s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:51:32+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E4%BD%A0%E9%9C%80%E8%A6%81%E5%9B%BE%E7%89%87%E5%90%97%EF%BC%9F
+[运行时间：0.007606s] [吞吐率：131.47req/s] [内存消耗：383.12kb] [文件加载：51]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'review',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=360616544; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689889; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'text',
+  'content' => '你需要图片吗？',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000116s ]
+[ info ] [ RUN ] app\wechat\controller\Review->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Review.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/review.index.html [ array (
+  0 => 'classuri',
+  1 => 'type',
+  2 => 'content',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002077s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:51:32+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E4%BD%A0%E9%9C%80%E8%A6%81%E5%9B%BE%E7%89%87%E5%90%97%EF%BC%9F
+[运行时间：0.006216s] [吞吐率：160.87req/s] [内存消耗：383.12kb] [文件加载：51]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'review',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=360616544; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689889; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'text',
+  'content' => '你需要图片吗？',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000099s ]
+[ info ] [ RUN ] app\wechat\controller\Review->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Review.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/review.index.html [ array (
+  0 => 'classuri',
+  1 => 'type',
+  2 => 'content',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001700s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:51:35+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E4%BD%9B%E5%B1%B1%0D%0A04%E6%9C%8828%E6%97%A5+%E5%91%A8%E4%B8%89+%E5%86%9C%E5%8E%86%E4%B8%89%E6%9C%88%E5%8D%81%E4%B8%83%0D%0A20+%7E+22%E2%84%83%0D%0A%E5%B0%8F%E9%9B%A8%E8%BD%AC%E9%98%B5%E9%9B%A8
+[运行时间：0.008338s] [吞吐率：119.93req/s] [内存消耗：383.35kb] [文件加载：51]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'review',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=360616544; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689893; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'text',
+  'content' => '佛山
+04月28日 周三 农历三月十七
+20 ~ 22℃
+小雨转阵雨',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000121s ]
+[ info ] [ RUN ] app\wechat\controller\Review->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Review.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/review.index.html [ array (
+  0 => 'classuri',
+  1 => 'type',
+  2 => 'content',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002462s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:51:35+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E4%BD%9B%E5%B1%B1%0D%0A04%E6%9C%8828%E6%97%A5+%E5%91%A8%E4%B8%89+%E5%86%9C%E5%8E%86%E4%B8%89%E6%9C%88%E5%8D%81%E4%B8%83%0D%0A20+%7E+22%E2%84%83%0D%0A%E5%B0%8F%E9%9B%A8%E8%BD%AC%E9%98%B5%E9%9B%A8
+[运行时间：0.007073s] [吞吐率：141.38req/s] [内存消耗：383.35kb] [文件加载：51]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'review',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'td_cookie=360616544; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689893; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'text',
+  'content' => '佛山
+04月28日 周三 农历三月十七
+20 ~ 22℃
+小雨转阵雨',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000107s ]
+[ info ] [ RUN ] app\wechat\controller\Review->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/controller/Review.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/wechat/view/review.index.html [ array (
+  0 => 'classuri',
+  1 => 'type',
+  2 => 'content',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002118s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:13+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/index.html?spm=m-2-19
+[运行时间：0.009485s] [吞吐率：105.43req/s] [内存消耗：405.24kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000324s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000980s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:16+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010824s] [吞吐率：92.39req/s] [内存消耗：410.58kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000358s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001018s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:22+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/index.html?spm=m-2-19
+[运行时间：0.010331s] [吞吐率：96.80req/s] [内存消耗：405.24kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000361s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001090s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:26+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010827s] [吞吐率：92.36req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000364s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:28+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/menu/index.html?spm=m-2-21
+[运行时间：0.010652s] [吞吐率：93.88req/s] [内存消耗：428.77kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000299s ]
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001047s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:29+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010605s] [吞吐率：94.30req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000360s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001019s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:30+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/menu/index.html?spm=m-2-21
+[运行时间：0.010428s] [吞吐率：95.90req/s] [内存消耗：427.64kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000340s ]
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001169s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:36+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010583s] [吞吐率：94.49req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000349s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001042s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:44+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/node/index.html?spm=m-2-22
+[运行时间：0.024835s] [吞吐率：40.27req/s] [内存消耗：527.30kb] [文件加载：77]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'node',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-22',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000359s ]
+[ info ] [ RUN ] app\admin\controller\Node->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Node.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/node.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'nodes',
+  3 => 'alert',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001168s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:50+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010575s] [吞吐率：94.56req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000382s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001039s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:52:52+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/log/index.html?spm=m-2-9
+[运行时间：0.010894s] [吞吐率：91.79req/s] [内存消耗：424.33kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-9',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000303s ]
+[ info ] [ RUN ] app\admin\controller\Log->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Log.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/log.index.html [ array (
+  0 => 'classuri',
+  1 => 'actions',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001049s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:53:01+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010460s] [吞吐率：95.60req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000357s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001014s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:53:24+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/node/index.html?spm=m-2-22
+[运行时间：0.024798s] [吞吐率：40.33req/s] [内存消耗：526.18kb] [文件加载：77]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'node',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-22',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000349s ]
+[ info ] [ RUN ] app\admin\controller\Node->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Node.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/node.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'nodes',
+  3 => 'alert',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001271s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:53:36+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/log/index.html?spm=m-2-9
+[运行时间：0.011692s] [吞吐率：85.53req/s] [内存消耗：423.20kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-9',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000339s ]
+[ info ] [ RUN ] app\admin\controller\Log->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Log.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/log.index.html [ array (
+  0 => 'classuri',
+  1 => 'actions',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:01+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/menu/index.html?spm=m-2-21
+[运行时间：0.011092s] [吞吐率：90.15req/s] [内存消耗：427.64kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000362s ]
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001084s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:02+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/index.html?spm=m-2-19
+[运行时间：0.009024s] [吞吐率：110.82req/s] [内存消耗：405.24kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000293s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:04+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/node/index.html?spm=m-2-22
+[运行时间：0.024825s] [吞吐率：40.28req/s] [内存消耗：526.18kb] [文件加载：77]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'node',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-22',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000368s ]
+[ info ] [ RUN ] app\admin\controller\Node->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Node.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/node.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'nodes',
+  3 => 'alert',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001242s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:05+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/menu/index.html?spm=m-2-21
+[运行时间：0.009975s] [吞吐率：100.25req/s] [内存消耗：427.64kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000288s ]
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001041s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:10+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010646s] [吞吐率：93.93req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000393s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000982s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:12+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/node/index.html?spm=m-2-22
+[运行时间：0.023801s] [吞吐率：42.01req/s] [内存消耗：526.18kb] [文件加载：77]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'node',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-22',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000298s ]
+[ info ] [ RUN ] app\admin\controller\Node->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Node.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/node.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'nodes',
+  3 => 'alert',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001216s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:13+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/index.html?spm=m-2-19
+[运行时间：0.009546s] [吞吐率：104.76req/s] [内存消耗：405.24kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000333s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000981s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:18+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/add.html?spm=m-2-19&open_type=modal
+[运行时间：0.009374s] [吞吐率：106.68req/s] [内存消耗：404.27kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+  'open_type' => 'modal',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000352s ]
+[ info ] [ RUN ] app\admin\controller\Auth->add[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/auth.form.html [ array (
+  0 => 'classuri',
+  1 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001160s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:21+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/menu/index.html?spm=m-2-21
+[运行时间：0.011534s] [吞吐率：86.70req/s] [内存消耗：427.64kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000350s ]
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001238s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:22+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.009493s] [吞吐率：105.34req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000308s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000998s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:24+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/log/index.html?spm=m-2-9
+[运行时间：0.011354s] [吞吐率：88.07req/s] [内存消耗：423.20kb] [文件加载：60]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-9',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000334s ]
+[ info ] [ RUN ] app\admin\controller\Log->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Log.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/log.index.html [ array (
+  0 => 'classuri',
+  1 => 'actions',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001041s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:25+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[运行时间：0.010078s] [吞吐率：99.23req/s] [内存消耗：409.45kb] [文件加载：59]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000315s ]
+[ info ] [ RUN ] app\admin\controller\User->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/user.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001149s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:26+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/menu/index.html?spm=m-2-21
+[运行时间：0.010137s] [吞吐率：98.65req/s] [内存消耗：427.64kb] [文件加载：55]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000299s ]
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Menu.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/menu.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001028s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T17:54:38+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/node/index.html?spm=m-2-22
+[运行时间：0.025339s] [吞吐率：39.46req/s] [内存消耗：526.18kb] [文件加载：77]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'node',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=331335594; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619600469,1619660612; td_cookie=360425356; s135a38a2=47sgif637u53fiaehm6ig2b9cf; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619689895; menu-style=full; rows=20',
+  'referer' => 'http://wx.zhinengyingjian.work/admin.html',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-22',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000349s ]
+[ info ] [ RUN ] app\admin\controller\Node->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Node.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/node.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'nodes',
+  3 => 'alert',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001458s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T19:16:40+08:00 ] 47.101.194.68 GET wx.zhinengyingjian.work/
+[运行时间：0.004962s] [吞吐率：201.53req/s] [内存消耗：222.20kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000119s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T19:16:40+08:00 ] 47.101.194.68 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004296s] [吞吐率：232.78req/s] [内存消耗：226.02kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T19:16:40+08:00 ] 47.101.194.68 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007775s] [吞吐率：128.62req/s] [内存消耗：403.27kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000105s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000173s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T20:08:02+08:00 ] 47.242.220.18 GET wx.zhinengyingjian.work/
+[运行时间：0.005111s] [吞吐率：195.66req/s] [内存消耗：223.02kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000129s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T20:08:03+08:00 ] 47.242.220.18 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004423s] [吞吐率：226.08req/s] [内存消耗：226.84kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-29T20:08:04+08:00 ] 47.242.220.18 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.008042s] [吞吐率：124.35req/s] [内存消耗：404.27kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 's135a38a2=u3o7st1e719taej0nofcacrfvk',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000106s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File

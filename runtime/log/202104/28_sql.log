@@ -1,0 +1,856 @@
+---------------------------------------------------------------
+[ 2021-04-28T19:49:38+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=f4888da24133c1a1a98ac37322e06892634feec8&timestamp=1619610578&nonce=1835965823&openid=oe2iJtwPsoy-yJTEeRMM-gE_g-fo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oe2iJtwPsoy-yJTEeRMM-gE_g-fo' LIMIT 1 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:50:04+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=475009779c4d4ab38a8a758f2b1ab69a6ecae0ff&timestamp=1619610604&nonce=1278053389&openid=oe2iJtwPsoy-yJTEeRMM-gE_g-fo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oe2iJtwPsoy-yJTEeRMM-gE_g-fo' LIMIT 1 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:53:22+08:00 ] 81.69.103.236 GET wx.zhinengyingjian.work/wechat/api.html?signature=0e611224d5656ae02141e7ecf8823a5dd73fb690&echostr=1685552581334523641&timestamp=1619610801&nonce=730674437
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:53:29+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_appid' LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_appid',`value`='wxcd0eda4fdbe728fb'  WHERE  `name` = 'wechat_appid' [ RunTime:0.008741s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_appsecret' LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_appsecret',`value`='c067ee13b4bee3394cba2b7b5047a26b'  WHERE  `name` = 'wechat_appsecret' [ RunTime:0.006853s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_token' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_token',`value`='806367_b'  WHERE  `name` = 'wechat_token' [ RunTime:0.007718s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_encodingaeskey' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_encodingaeskey',`value`=''  WHERE  `name` = 'wechat_encodingaeskey' [ RunTime:0.008260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.92' , 'wechat/config/index' , 'admin' , '微信管理' , '修改微信接口参数成功') [ RunTime:0.007582s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:53:31+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:53:34+08:00 ] 81.69.103.236 GET wx.zhinengyingjian.work/wechat/api.html?signature=3edc78909bc7fe344750fbf82ff184ec66187c0d&echostr=797141576830254847&timestamp=1619610814&nonce=1721332460
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:54:59+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=c2ec60d6c5a0283dc1e1e19b84e9f2be67052674&timestamp=1619610899&nonce=308929190&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '天气' LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:58:50+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=3cb4a4648a355c0a5ab987e86761e1263086f8b1&timestamp=1619611130&nonce=854351258&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '天气' LIMIT 1 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:04+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:09+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/defaults.html?spm=m-61-81
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'default' LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:09+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:10+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:27+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007921s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿课堂','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.011802s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:32+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.006293s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿课堂','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.005054s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:50+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (196,198,200)  AND `status` = 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2021-04-28T19:59:51+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:00:28+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=edb7c85e64469cb64bed328f03a80d864953b9f9&timestamp=1619611228&nonce=763645620&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:00:46+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=f339759aad191efe09d96da96c82dd4104894d31&timestamp=1619611246&nonce=618126238&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'subscribe' LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:01:15+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/cancel.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:01:18+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:01:21+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (196,198,200)  AND `status` = 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:01:22+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:01:53+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/cancel.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:01:55+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:02:11+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008484s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '1111','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.011909s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:03:53+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.009089s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '1111','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012138s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:03:59+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008863s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '1111','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.007852s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:04:35+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.009010s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '1111','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.009108s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:05:35+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/add/id/1.html?spm=m-61-83
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:05:37+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:05:45+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:05:49+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007063s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '222','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012064s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:06:15+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007823s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.011969s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:08:08+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.009091s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.011333s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:08:36+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008157s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.011359s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:08:41+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.009302s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.008480s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:08:55+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007573s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.008541s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:09:13+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008775s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.008445s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:10:02+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=b6ffedcb3d32f470f4091287ebc72b3badf8e555&timestamp=1619611802&nonce=238724014&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '天气' LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:11:51+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007481s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012255s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:26+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/tags/index.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000583s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans_tags` LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans_tags` ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:28+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/tags/sync.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_fans_tags`    WHERE  (  1=1 ) [ RunTime:0.006969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.004572s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000317s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_fans_tags`    WHERE  `appid` = 'wxcd0eda4fdbe728fb' [ RunTime:0.004756s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans_tags` (`id` , `name` , `count` , `appid`) VALUES ( 2,'星标组',0,'wxcd0eda4fdbe728fb' ) [ RunTime:0.008542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.92' , 'wechat/tags/sync' , 'admin' , '微信管理' , '同步全部微信粉丝标签成功') [ RunTime:0.007651s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:31+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/tags/index.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans_tags` LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans_tags` ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:32+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/tags/sync.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_fans_tags`    WHERE  (  1=1 ) [ RunTime:0.007820s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000319s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_fans_tags`    WHERE  `appid` = 'wxcd0eda4fdbe728fb' [ RunTime:0.003116s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans_tags` (`id` , `name` , `count` , `appid`) VALUES ( 2,'星标组',0,'wxcd0eda4fdbe728fb' ) [ RunTime:0.008358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.92' , 'wechat/tags/sync' , 'admin' , '微信管理' , '同步全部微信粉丝标签成功') [ RunTime:0.007377s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:35+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/tags/index.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans_tags` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans_tags` ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:40+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/index.html?spm=m-61-67
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `is_back` = 0 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `is_back` = 0 ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:44+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/sync.html?spm=m-61-67
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_fans`    WHERE  (  1=1 ) [ RunTime:0.008992s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.004461s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6fpz3BWzf9X6mK9K51kTMoM' LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6fpz3BWzf9X6mK9K51kTMoM' , '刘晨语' , 2 , 'zh_CN' , '广州' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/xGSM1lYpaETD4M2lcnCHUDIRTVypb6FcepTvt3hibQDNuBwB5gJwrUvKowsexq3KXY8Eu0l72nVqEaIVyvZSvt5935rFX7MtG/132' , 1604999929 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-10 17:18:49' , 'wxcd0eda4fdbe728fb') [ RunTime:0.009119s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6asVI9fSzaUXfOeokyYdCHM' LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6asVI9fSzaUXfOeokyYdCHM' , '怡欣李建锋，乳胶棕垫15907578721' , 1 , 'zh_CN' , '江门' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/xGSM1lYpaERzJcB2yqpiaeQaGnr7STZT5ZkyCDhiaKjW2R12iakVvSvgKCzicQKZgmKjCicLmKw4aKia5OjRqrC0YurWBLy3IicHia6s/132' , 1604973222 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-10 09:53:42' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008466s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' , '刘超' , 1 , 'zh_CN' , '佛山' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/LUjkBu5odMicDeUgo8vLM42fRV9RWSxl5pz1gzPjt6r0HCke9icaVGZGwejOKycNB8A0V8r7iazrYIv1CcNicibrsqhn6QHwcnWZA/132' , 1619611246 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2021-04-28 20:00:46' , 'wxcd0eda4fdbe728fb') [ RunTime:0.007436s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6Z6zK9LiWxvKw_ta9r0Xh6E' LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6Z6zK9LiWxvKw_ta9r0Xh6E' , '杰' , 1 , 'zh_CN' , '广州' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/xGSM1lYpaET9KOESGtHKtfeWCedficYJsL1DuDggQ5Id5LqNDGu0NVGeSibwI346oqEStibxVEn0KlSbfo4YxajyIwjdAEONCwI/132' , 1604487220 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-04 18:53:40' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008349s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6V417AajuHBLQqRNOkVBYiI' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6V417AajuHBLQqRNOkVBYiI' , '梁梓健\\ud83d\\udc1d' , 1 , 'zh_CN' , '佛山' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/ajNVdqHZLLAL5hOGnECO5xPx7ypibA9H6l4qoztL1C21WSfUK7iavKORL9mleMOvEoOtEvvibKLgEkqflo2XG0HPmYB1rrc7fhNKWt6LoMibPSI/132' , 1604971475 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-10 09:24:35' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008247s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6YtoUZhK6PSZzjZvFeKfyIk' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6YtoUZhK6PSZzjZvFeKfyIk' , 'jun' , 2 , 'zh_CN' , '佛山' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/3UiaQhcKico1CNSmc2bibfdNvicx6lTDMHOI5oUpDmOSH9naCxHp7MRBT4icZicbpxp3G4ff6icg5AdVccUzT3yBsAXib8oicicgdK4VQQ/132' , 1604478594 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-04 16:29:54' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.92' , 'wechat/fans/sync' , 'admin' , '微信管理' , '同步全部微信粉丝成功') [ RunTime:0.008804s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:46+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/index.html?spm=m-61-67
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `is_back` = 0 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `is_back` = 0 ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:54+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/subscribe.html?spm=m-61-71
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'subscribe' LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:54+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:56+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:14:58+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:15:01+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007156s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012211s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:15:20+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:16:06+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_appid' LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_appid',`value`='wxcd0eda4fdbe728fb'  WHERE  `name` = 'wechat_appid' [ RunTime:0.007676s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_appsecret' LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_appsecret',`value`='c067ee13b4bee3394cba2b7b5047a26b'  WHERE  `name` = 'wechat_appsecret' [ RunTime:0.008279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_token' LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_token',`value`='806367_b'  WHERE  `name` = 'wechat_token' [ RunTime:0.008318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_config` WHERE  `name` = 'wechat_encodingaeskey' LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] UPDATE `system_config`  SET `name`='wechat_encodingaeskey',`value`=''  WHERE  `name` = 'wechat_encodingaeskey' [ RunTime:0.005118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.92' , 'wechat/config/index' , 'admin' , '微信管理' , '修改微信接口参数成功') [ RunTime:0.008293s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:16:08+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:16:10+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:16:12+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008082s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '2223','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012213s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:19:51+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007129s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012098s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:20:18+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008809s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类1','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012199s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:20:28+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008700s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.008448s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:20:32+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/defaults.html?spm=m-61-81
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'default' LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:20:32+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:20:33+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:21:08+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.006911s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.013104s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:26:15+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008980s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012068s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:29:51+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008937s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.010300s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:29:58+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (196,198,200)  AND `status` = 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:29:58+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:30:05+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008181s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','4123412341231,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.008445s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:30:21+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007072s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','wx2794a3e9b37850b8,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.007363s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:30:25+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008851s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','wx2794a3e9b37850b8,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.007718s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:30:30+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008044s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','wx2794a3e9b37850b8,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.007670s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:30:34+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.007848s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '小程序','miniprogram','wx2794a3e9b37850b8,34123,412341','12','1','1' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.008382s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:52+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/menu/edit.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_menu`    WHERE  (  1=1 ) [ RunTime:0.008437s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_menu` (`name` , `type` , `content` , `index` , `pindex` , `sort`) VALUES ( '幼儿阅读','text','2234123413','1','0','0' ) , ( '图片','keys','图片','11','1','0' ) , ( '事件类','event','pic_weixin','2','0','1' ) , ( '微信支付','view','https://think.ctolog.com/index/wap/payjs','3','0','2' ) [ RunTime:0.012176s ]
+[ sql ] [ SQL ] SELECT `id`,`index`,`pindex`,`name`,`type`,`content` FROM `wechat_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.92' , 'wechat/menu/edit' , 'admin' , '微信管理' , '发布微信菜单成功') [ RunTime:0.008666s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:54+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/menu/index.html?spm=m-61-69
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` ORDER BY `sort` ASC [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:32:19+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=c943a8f82824955a7e8646e1e27e346665b19137&timestamp=1619613139&nonce=1621424504&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` WHERE  `id` = 10136 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '图片' LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'default' LIMIT 1 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:32:36+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/subscribe.html?spm=m-61-71
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'subscribe' LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:32:37+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:32:37+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/index.html?spm=m-61-70
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000587s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') ORDER BY `sort` ASC LIMIT 0,20 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:32:42+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/add.html?spm=m-61-70
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:32:42+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:33:19+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E4%BD%A0%E9%9C%80%E8%A6%81%E5%9B%BE%E7%89%87%E5%90%97%EF%BC%9F
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:33:19+08:00 ] 120.237.147.92 POST wx.zhinengyingjian.work/wechat/keys/add.html?spm=m-61-70
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_keys` WHERE  `keys` = '图片' LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_keys` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_keys` (`keys` , `type` , `content` , `news_id` , `image_url` , `voice_url` , `music_title` , `music_url` , `music_desc` , `music_image` , `video_title` , `video_url` , `video_desc`) VALUES ('图片' , 'text' , '你需要图片吗？' , 0 , 'http://wx.zhinengyingjian.work/static/theme/default/img/image.png' , '' , '音乐标题' , '' , '音乐描述' , 'http://wx.zhinengyingjian.work/static/theme/default/img/image.png' , '视频标题' , '' , '视频描述') [ RunTime:0.007818s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:33:22+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/keys/add.html?spm=m-61-70
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:33:22+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/review.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:33:25+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=d4c3012111b4f0748abf5e2226ac59a2726e957b&timestamp=1619613205&nonce=1390610372&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` WHERE  `id` = 10136 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '图片' LIMIT 1 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:33:31+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=7dcd9885a0c52fc2ea017d0abb19af3b169c459d&timestamp=1619613211&nonce=1031140814&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` WHERE  `id` = 10136 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '图片' LIMIT 1 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:36:38+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=8bda588e5433f2062ddb741532fbb52843760bd4&timestamp=1619613398&nonce=791138871&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` WHERE  `id` = 10136 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '图片' LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:41:04+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=7326140cd3591ef16decd42ecaf9216f64868b28&timestamp=1619613664&nonce=1406756323&openid=oe2iJtwPsoy-yJTEeRMM-gE_g-fo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:43:28+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=b01650458604e123a0a9525f07ed0eddefd3b461&timestamp=1619613807&nonce=225004238&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_menu` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_menu` WHERE  `id` = 10136 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '图片' LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:43:37+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=05282f673a22fcba4e2604296bc6fdb7a02ec459&timestamp=1619613817&nonce=1788384803&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '天气' LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:49:30+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (196,198,200)  AND `status` = 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:49:30+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:00+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=97112c75b0cc601f2a4213d1f7ec7de9d600fc4a&timestamp=1619614380&nonce=1087491213&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = '天气' LIMIT 1 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:29+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (196,198,200)  AND `status` = 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:29+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/index.html?spm=m-61-85
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_news` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_news` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_news` WHERE  `is_deleted` = 0 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:30+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/index.html?spm=m-61-67
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `is_back` = 0 LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `is_back` = 0 ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:33+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/sync.html?spm=m-61-67
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] DELETE FROM `wechat_fans`    WHERE  (  1=1 ) [ RunTime:0.008118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.004488s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6fpz3BWzf9X6mK9K51kTMoM' LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6fpz3BWzf9X6mK9K51kTMoM' , '刘晨语' , 2 , 'zh_CN' , '广州' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/xGSM1lYpaETD4M2lcnCHUDIRTVypb6FcepTvt3hibQDNuBwB5gJwrUvKowsexq3KXY8Eu0l72nVqEaIVyvZSvt5935rFX7MtG/132' , 1604999929 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-10 17:18:49' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008628s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6asVI9fSzaUXfOeokyYdCHM' LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6asVI9fSzaUXfOeokyYdCHM' , '怡欣李建锋，乳胶棕垫15907578721' , 1 , 'zh_CN' , '江门' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/xGSM1lYpaERzJcB2yqpiaeQaGnr7STZT5ZkyCDhiaKjW2R12iakVvSvgKCzicQKZgmKjCicLmKw4aKia5OjRqrC0YurWBLy3IicHia6s/132' , 1604973222 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-10 09:53:42' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008291s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6a7MBi0f9VnXvRodVg1-iQg' , '刘超' , 1 , 'zh_CN' , '佛山' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/LUjkBu5odMicDeUgo8vLM42fRV9RWSxl5pz1gzPjt6r0HCke9icaVGZGwejOKycNB8A0V8r7iazrYIv1CcNicibrsqhn6QHwcnWZA/132' , 1619611246 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2021-04-28 20:00:46' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6Z6zK9LiWxvKw_ta9r0Xh6E' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6Z6zK9LiWxvKw_ta9r0Xh6E' , '杰' , 1 , 'zh_CN' , '广州' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/xGSM1lYpaET9KOESGtHKtfeWCedficYJsL1DuDggQ5Id5LqNDGu0NVGeSibwI346oqEStibxVEn0KlSbfo4YxajyIwjdAEONCwI/132' , 1604487220 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-04 18:53:40' , 'wxcd0eda4fdbe728fb') [ RunTime:0.007812s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6V417AajuHBLQqRNOkVBYiI' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6V417AajuHBLQqRNOkVBYiI' , '梁梓健\\ud83d\\udc1d' , 1 , 'zh_CN' , '佛山' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/ajNVdqHZLLAL5hOGnECO5xPx7ypibA9H6l4qoztL1C21WSfUK7iavKORL9mleMOvEoOtEvvibKLgEkqflo2XG0HPmYB1rrc7fhNKWt6LoMibPSI/132' , 1604971475 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-10 09:24:35' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008449s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'oF6FN6YtoUZhK6PSZzjZvFeKfyIk' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] INSERT INTO `wechat_fans` (`subscribe` , `openid` , `nickname` , `sex` , `language` , `city` , `province` , `country` , `headimgurl` , `subscribe_time` , `remark` , `groupid` , `subscribe_scene` , `qr_scene` , `qr_scene_str` , `subscribe_at` , `appid`) VALUES (1 , 'oF6FN6YtoUZhK6PSZzjZvFeKfyIk' , 'jun' , 2 , 'zh_CN' , '佛山' , '广东' , '中国' , 'http://thirdwx.qlogo.cn/mmopen/3UiaQhcKico1CNSmc2bibfdNvicx6lTDMHOI5oUpDmOSH9naCxHp7MRBT4icZicbpxp3G4ff6icg5AdVccUzT3yBsAXib8oicicgdK4VQQ/132' , 1604478594 , '' , 0 , 'ADD_SCENE_QR_CODE' , 0 , '' , '2020-11-04 16:29:54' , 'wxcd0eda4fdbe728fb') [ RunTime:0.008273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.92' , 'wechat/fans/sync' , 'admin' , '微信管理' , '同步全部微信粉丝成功') [ RunTime:0.008694s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:35+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/fans/index.html?spm=m-61-67
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `is_back` = 0 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` WHERE  `is_back` = 0 ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:40+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY `sort` ASC LIMIT 0,20 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2021-04-28T20:53:41+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/news/index.html?spm=m-61-85
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_news` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_news` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_news` WHERE  `is_deleted` = 0 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000275s ]

@@ -1,0 +1,769 @@
+---------------------------------------------------------------
+[ 2021-04-30T09:26:32+08:00 ] 139.224.238.204 GET wx.zhinengyingjian.work/
+[运行时间：0.004950s] [吞吐率：202.03req/s] [内存消耗：222.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000128s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T09:26:32+08:00 ] 139.224.238.204 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004412s] [吞吐率：226.65req/s] [内存消耗：225.99kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T09:26:32+08:00 ] 139.224.238.204 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007639s] [吞吐率：130.90req/s] [内存消耗：403.24kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000107s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000173s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T09:38:24+08:00 ] 47.98.34.250 GET wx.zhinengyingjian.work/
+[运行时间：0.005002s] [吞吐率：199.92req/s] [内存消耗：222.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000139s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T09:38:24+08:00 ] 47.98.34.250 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004395s] [吞吐率：227.53req/s] [内存消耗：225.99kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T09:38:24+08:00 ] 47.98.34.250 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007663s] [吞吐率：130.50req/s] [内存消耗：403.24kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000104s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T14:22:05+08:00 ] 47.101.187.80 GET wx.zhinengyingjian.work/
+[运行时间：0.004729s] [吞吐率：211.46req/s] [内存消耗：222.20kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000117s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T14:22:05+08:00 ] 47.101.187.80 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004389s] [吞吐率：227.84req/s] [内存消耗：226.02kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T14:22:05+08:00 ] 47.101.187.80 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007763s] [吞吐率：128.82req/s] [内存消耗：403.27kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000113s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:43+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/favicon.ico
+[运行时间：0.004007s] [吞吐率：249.57req/s] [内存消耗：207.76kb] [文件加载：36]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=442360810',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wx.zhinengyingjian.work/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:43+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/
+[运行时间：0.004401s] [吞吐率：227.22req/s] [内存消耗：223.95kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=442360810',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wx.zhinengyingjian.work/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000119s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:43+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004273s] [吞吐率：234.02req/s] [内存消耗：227.52kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=442360810',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wx.zhinengyingjian.work/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:43+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007376s] [吞吐率：135.58req/s] [内存消耗：404.92kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=442360810; s135a38a2=of0l942dfvm33hbpv50ifsc4ha',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wx.zhinengyingjian.work/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000110s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:44+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007669s] [吞吐率：130.40req/s] [内存消耗：404.05kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=442360810; s135a38a2=of0l942dfvm33hbpv50ifsc4ha',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://wx.zhinengyingjian.work/',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000115s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:46+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.008768s] [吞吐率：114.05req/s] [内存消耗：404.83kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'td_cookie=442360810; s135a38a2=of0l942dfvm33hbpv50ifsc4ha; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1619771674; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1619771674',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000121s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000178s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:57+08:00 ] 180.163.220.68 GET wx.zhinengyingjian.work/
+[运行时间：0.004962s] [吞吐率：201.53req/s] [内存消耗：224.20kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000120s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:57+08:00 ] 180.163.220.68 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004395s] [吞吐率：227.53req/s] [内存消耗：228.02kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T16:33:57+08:00 ] 180.163.220.68 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007139s] [吞吐率：140.08req/s] [内存消耗：405.45kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's135a38a2=62t77mth55feg6vh2bumclb9bu',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'wx.zhinengyingjian.work',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000108s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000154s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T17:56:19+08:00 ] 106.15.187.29 GET wx.zhinengyingjian.work/
+[运行时间：0.004971s] [吞吐率：201.17req/s] [内存消耗：222.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 firefox(windows nt/Windows NT;)Firefox',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000122s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T17:56:20+08:00 ] 106.15.187.29 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004356s] [吞吐率：229.57req/s] [内存消耗：225.99kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 firefox(windows nt/Windows NT;)Firefox',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T17:56:20+08:00 ] 106.15.187.29 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007598s] [吞吐率：131.61req/s] [内存消耗：403.24kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 firefox(windows nt/Windows NT;)Firefox',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000105s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000160s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T19:57:58+08:00 ] 101.132.169.97 GET wx.zhinengyingjian.work/
+[运行时间：0.004844s] [吞吐率：206.44req/s] [内存消耗：222.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 firefox(windows nt/Windows NT;)Firefox',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000113s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T19:57:58+08:00 ] 101.132.169.97 GET wx.zhinengyingjian.work/admin.html
+[运行时间：0.004377s] [吞吐率：228.47req/s] [内存消耗：225.99kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 firefox(windows nt/Windows NT;)Firefox',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-30T19:57:58+08:00 ] 101.132.169.97 GET wx.zhinengyingjian.work/admin/login.html
+[运行时间：0.007593s] [吞吐率：131.70req/s] [内存消耗：403.24kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'wx.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 firefox(windows nt/Windows NT;)Firefox',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000103s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/wx.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File

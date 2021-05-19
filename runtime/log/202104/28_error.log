@@ -1,0 +1,385 @@
+---------------------------------------------------------------
+[ 2021-04-28T19:49:38+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=f4888da24133c1a1a98ac37322e06892634feec8&timestamp=1619610578&nonce=1835965823&openid=oe2iJtwPsoy-yJTEeRMM-gE_g-fo
+NULL
+pppp
+'oe2iJtwPsoy-yJTEeRMM-gE_g-fo'
+array (
+  'subscribe' => 1,
+)
+---------------------------------------------------------------
+[ 2021-04-28T19:50:04+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=475009779c4d4ab38a8a758f2b1ab69a6ecae0ff&timestamp=1619610604&nonce=1278053389&openid=oe2iJtwPsoy-yJTEeRMM-gE_g-fo
+[ error ] [8]未定义数组索引: nickname[/www/admin/wx.zhinengyingjian.work_80/wwwroot/extend/service/WechatService.php:167]
+---------------------------------------------------------------
+[ 2021-04-28T19:53:22+08:00 ] 81.69.103.236 GET wx.zhinengyingjian.work/wechat/api.html?signature=0e611224d5656ae02141e7ecf8823a5dd73fb690&echostr=1685552581334523641&timestamp=1619610801&nonce=730674437
+[ error ] [0]
+array (
+  'id' => 10021,
+  'appid' => 'wxcd0eda4fdbe728fb',
+  'groupid' => 0,
+  'tagid_list' => '',
+  'is_back' => 0,
+  'subscribe' => 1,
+  'openid' => 'oF6FN6a7MBi0f9VnXvRodVg1-iQg',
+  'spread_openid' => NULL,
+  'spread_at' => NULL,
+  'nickname' => '刘超',
+  'sex' => 1,
+  'country' => '中国',
+  'province' => '广东',
+  'city' => '佛山',
+  'language' => 'zh_CN',
+  'headimgurl' => 'http://thirdwx.qlogo.cn/mmopen/LUjkBu5odMicDeUgo8vLM42fRV9RWSxl5pz1gzPjt6r0HCke9icaVGZGwejOKycNB8A0V8r7iazrYIv1CcNicibrsqhn6QHwcnWZA/132',
+  'qr_scene' => 0,
+  'qr_scene_str' => '',
+  'subscribe_scene' => 'ADD_SCENE_QR_CODE',
+  'subscribe_time' => 1604979848,
+  'subscribe_at' => '2020-11-10 11:44:08',
+  'unionid' => NULL,
+  'remark' => '',
+  'expires_in' => 0,
+  'refresh_token' => NULL,
+  'access_token' => NULL,
+  'create_at' => '2021-04-28 19:16:11',
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:00:28+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=edb7c85e64469cb64bed328f03a80d864953b9f9&timestamp=1619611228&nonce=763645620&openid=oF6FN6a7MBi0f9VnXvRodVg1-iQg
+[ error ] [2]Illegal offset type in isset or empty[/www/admin/wx.zhinengyingjian.work_80/wwwroot/extend/service/DataService.php:78]
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 60895106-5a47363a-36b0e86e',
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 608951c4-58347c9d-4856cf32',
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 6089520c-061e6838-474e3a01',
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 608952e6-59cda532-41b52aa3',
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 60895301-3adbdb7a-27af1610',
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 6089530c-24c6d8b3-71813ce4',
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 60895334-0dce53cb-05302995',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10100',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10101',
+      ),
+      1 => 
+      array (
+        'name' => '小程序',
+        'type' => 'miniprogram',
+        'appid' => '4123412341231',
+        'url' => '34123',
+        'pagepath' => '412341',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10103',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 60895466-7ff63728-08daa114',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10105',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10106',
+      ),
+      1 => 
+      array (
+        'name' => '小程序',
+        'type' => 'miniprogram',
+        'appid' => '4123412341231',
+        'url' => '34123',
+        'pagepath' => '412341',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10108',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 6089553f-49a771ff-16480bca',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10110',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10111',
+      ),
+      1 => 
+      array (
+        'name' => '小程序',
+        'type' => 'miniprogram',
+        'appid' => '4123412341231',
+        'url' => '34123',
+        'pagepath' => '412341',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10113',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+array (
+  'status' => false,
+  'errmsg' => 'invalid weapp appid rid: 6089554d-04cf62e4-7e3beb35',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10115',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10116',
+      ),
+      1 => 
+      array (
+        'name' => '小程序',
+        'type' => 'miniprogram',
+        'appid' => 'wx2794a3e9b37850b8',
+        'url' => '34123',
+        'pagepath' => '412341',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10118',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+array (
+  'status' => false,
+  'errmsg' => 'no permission to use weapp in menu rid: 6089555d-6bb73830-2f2cc5ce',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10120',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10121',
+      ),
+      1 => 
+      array (
+        'name' => '小程序',
+        'type' => 'miniprogram',
+        'appid' => 'wx2794a3e9b37850b8',
+        'url' => '34123',
+        'pagepath' => '412341',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10123',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+array (
+  'status' => false,
+  'errmsg' => 'no permission to use weapp in menu rid: 60895561-0d58fe63-15563b9d',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10125',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10126',
+      ),
+      1 => 
+      array (
+        'name' => '小程序',
+        'type' => 'miniprogram',
+        'appid' => 'wx2794a3e9b37850b8',
+        'url' => '34123',
+        'pagepath' => '412341',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10128',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+array (
+  'status' => false,
+  'errmsg' => 'no permission to use weapp in menu rid: 60895566-5f8217b9-5304b259',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10130',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10131',
+      ),
+      1 => 
+      array (
+        'name' => '小程序',
+        'type' => 'miniprogram',
+        'appid' => 'wx2794a3e9b37850b8',
+        'url' => '34123',
+        'pagepath' => '412341',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10133',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+array (
+  'status' => false,
+  'errmsg' => 'no permission to use weapp in menu rid: 6089556a-36fb255f-0142c1b8',
+)
+array (
+  0 => 
+  array (
+    'name' => '幼儿阅读',
+    'key' => 'wechat_menu#id#10135',
+    'sub_button' => 
+    array (
+      0 => 
+      array (
+        'name' => '图片',
+        'type' => 'click',
+        'key' => 'wechat_menu#id#10136',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'name' => '事件类',
+    'type' => 'pic_weixin',
+    'key' => 'wechat_menu#id#10137',
+  ),
+  2 => 
+  array (
+    'name' => '微信支付',
+    'type' => 'view',
+    'url' => 'https://think.ctolog.com/index/wap/payjs',
+  ),
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:41:04+08:00 ] 81.69.103.205 POST wx.zhinengyingjian.work/wechat/api.html?signature=7326140cd3591ef16decd42ecaf9216f64868b28&timestamp=1619613664&nonce=1406756323&openid=oe2iJtwPsoy-yJTEeRMM-gE_g-fo
+[ error ] Interface authentication failed, please use the correct method to call.[0]

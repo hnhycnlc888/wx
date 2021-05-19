@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2021-05-04T16:14:37+08:00 ] 47.101.196.170 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000337s ]

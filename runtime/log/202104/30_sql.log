@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+[ 2021-04-30T09:26:32+08:00 ] 139.224.238.204 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2021-04-30T09:38:24+08:00 ] 47.98.34.250 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2021-04-30T14:22:05+08:00 ] 47.101.187.80 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2021-04-30T16:33:43+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2021-04-30T16:33:44+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2021-04-30T16:33:46+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2021-04-30T16:33:57+08:00 ] 180.163.220.68 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2021-04-30T17:56:20+08:00 ] 106.15.187.29 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2021-04-30T19:57:58+08:00 ] 101.132.169.97 GET wx.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=wxzhinengyingjianwork_80_61;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000342s ]

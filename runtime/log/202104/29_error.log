@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2021-04-29T09:44:10+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[ error ] 内部订单号6174169595生成预支付失败，appid和mch_id不匹配
+---------------------------------------------------------------
+[ 2021-04-29T09:44:11+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[ error ] 内部订单号6174169595生成预支付失败，appid和mch_id不匹配
+---------------------------------------------------------------
+[ 2021-04-29T09:44:18+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[ error ] 内部订单号6174169595生成预支付失败，appid和mch_id不匹配
+---------------------------------------------------------------
+[ 2021-04-29T09:55:54+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[ error ] 内部订单号6174169595生成预支付失败，appid和mch_id不匹配
+---------------------------------------------------------------
+[ 2021-04-29T09:56:04+08:00 ] 120.237.147.92 GET wx.zhinengyingjian.work/wechat/config/pay.html?action=payqrc&spm=m-61-64
+[ error ] 内部订单号6174169595生成预支付失败，appid和mch_id不匹配
